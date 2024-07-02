@@ -1,0 +1,48 @@
+{
+    "courses": [
+        {
+            "lessonId": 1,
+            "lessonName": "Basic Traffic Rules",
+            "duration": "2 hours",
+            "instructor": "John Smith",
+            "description": "Learn the basic traffic rules and regulations.",
+            "topics": [
+                "Traffic signs",
+                "Right of way",
+                "Speed limits"
+            ],
+            "quiz": [
+                "quiz1",
+                "quiz2"
+            ],
+            "game": [
+                "game1 link",
+                "game2 link"
+            ]
+        },
+        {
+            "lessonId": 1,
+            "lessonName": "Defensive Driving",
+            "duration": "4 hours",
+            "instructor": "Jane Doe",
+            "description": "Master the skills needed to drive defensively and avoid accidents.",
+            "topics": [
+                "Hazard perception",
+                "Safe following distance",
+                "Handling emergencies"
+            ]
+        },
+        {
+            "lessonId": 3,
+            "lessonName": "Night Driving",
+            "duration": "1 hour",
+            "instructor": "Mike Johnson",
+            "description": "Learn how to drive safely at night and handle low visibility situations.",
+            "topics": [
+                "Using headlights",
+                "Dealing with glare",
+                "Spotting pedestrians"
+            ]
+        }
+    ]
+}

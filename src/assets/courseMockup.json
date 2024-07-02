@@ -1,0 +1,40 @@
+{
+    "_id": "07a67303-9951-4e87-aca6-b8693804c1d2",
+    "courseName" : "course1",
+    "lessons": [
+        {
+            "lessonID": "lesson1",
+            "title": "Introduction to the course",
+            "content": "This is the first lesson of the course. It will introduce you to the course and its objectives.",
+            "type": "text"
+        },
+        {
+            "lessonID": "lesson2",
+            "title": "Lesson 2",
+            "content": "This is the second lesson of the course. It will introduce you to the course and its objectives.",
+            "type": "text"
+        },
+        {
+            "lessonID": "lesson3",
+            "title": "Lesson 3",
+            "content": "This is the third lesson of the course. It will introduce you to the course and its objectives.",
+            "type": "text"
+        },
+        {
+            "lessonID": "lesson4",
+            "title": "Lesson 4",
+            "content": "This is the fourth lesson of the course. It will introduce you to the course and its objectives.",
+            "type": "text"
+        },
+        {
+            "lessonID": "lesson5",
+            "title": "Lesson 5",
+            "content": "This is the fifth lesson of the course. It will introduce you to the course and its objectives.",
+            "type": "text"
+        }
+    ],
+    "metadata": {
+        "lessonCount": 5,
+        "averageDuration": 30 
+    }
+}
