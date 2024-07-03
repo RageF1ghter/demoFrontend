@@ -19,7 +19,7 @@ function PuzzlePage() {
 
     const fetchImageURL = async () => {
         try {
-            const response = await fetch('http://localhost:3000/puzzle/getImageUrl', {
+            const response = await fetch('https://team2-backend.azurewebsites.net/puzzle/getImageUrl', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

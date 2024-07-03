@@ -27,7 +27,7 @@ const ImagePage = () => {
         try {
             setLoading(true);
             setProgress(0);
-            const response = await fetch('http://localhost:3000/generate/generate', {
+            const response = await fetch('https://team2-backend.azurewebsites.net/generate/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -62,7 +62,7 @@ const ImagePage = () => {
         if (loading) {
             interval = setInterval(async () => {
                 try {
-                    const progressResponse = await fetch('http://localhost:3000/generate/progress');
+                    const progressResponse = await fetch('https://team2-backend.azurewebsites.net/generate/progress');
                     const progressData = await progressResponse.json();
                     console.log('Progress:', progressData.progress);
                     setProgress(progressData.progress * 100);
